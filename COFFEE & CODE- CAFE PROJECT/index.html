@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>NIK | CAFE</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=DM+Sans:wght@400;500;600&display=swap"
+        rel="stylesheet"
+    >
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+        <!--^=================== NAVBAR ========================^-->
+    <header class="header-container" id="top">
+            <a href="#top" class="logo"> coffee<span>&</span>code</a>
+
+            <button
+                class="menu-toggle"
+                type="button"
+                aria-label="Open navigation menu"
+                aria-expanded="false"
+                aria-controls="primary-navigation"
+            >
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            
+            <nav class="nav-links" id="primary-navigation" aria-label="Main navigation">
+                <a href="#menu">MENU</a>
+                <a href="#story">STORY</a>
+                <a href="#journal">JOURNAL</a>
+                <a href="#visit">VISIT</a>
+                <a class="resrv-btn" href="#visit">RESERVE A TABLE</a>
+            </nav>
+    </header>
+
+    <!--^=================== HERO-SECTION ========================^-->
+<main> 
+
+    <section class="hero">
+        <div class="hero-content">
+            <p class="hero-eyebrow">EST. 2026 · JAIPUR </p>
+
+            <h1 class="hero-title">
+                Good coffee
+                <span class="hero-title-accent">takes its time.</span>
+            </h1>
+
+            <p class="hero-description"> A quiet corner for slow mornings, thoughtful coffee and conversations that last a little longer.</p>
+
+            <a href="#menu" class="hero-button"> Explore Menu ↗ </a>
+        </div>
+        
+        <div class="hero-image-wrapper">
+            <img
+                class="hero-image"
+                src="hero-img.png"
+                alt="Coffee">
+        </div>
+    </section>
+
+    <!--^=================== PHILOSOPHY-SECTION ========================^-->
+
+    <section class="philosophy">
+
+        <div class="philosophy-label">01 — OUR PHILOSOPHY</div>
+
+        <div class="philosophy-content reveal show">
+            
+            <p class="php-head">We believe coffee <em>should slow</em> you down.</p>
+
+            <P class="php-txt">Not everything needs to be rushed. From the first grind to the last sip, we make space for the little moments that make a day feel good.</P>
+        </div>
+    </section>
+
+    <!--^=================== CAFE EXPERIENCE ========================^-->
+
+<section class="experience">
+
+    <div class="experience-heading">
+
+        <p class="experience-label">
+            02 — THE EXPERIENCE
+        </p>
+
+        <h2 class="experience-title">
+            More than<br>
+            <em>a cup.</em>
+        </h2>
+
+    </div>
+
+
+    <div class="experience-grid">
+
+        <!-- CARD 01 -->
+
+        <article class="experience-card card-one reveal">
+
+            <div class="image-box tall">
+                <img
+                    class="experience-image"
+                    src="exp img1.png"
+                    alt="Cafe interior"
+                >
+            </div>
+
+            <div class="experience-card-content">
+
+                <span class="experience-number">
+                    01
+                </span>
+
+                <h3 class="experience-card-title">
+                    The Space
+                </h3>
+
+                <p class="experience-card-description">
+                    Warm light, natural textures and a place
+                    where you can stay as long as you like.
+                </p>
+
+            </div>
+
+        </article>
+
+
+        <!-- CARD 02 -->
+
+        <article class="experience-card card-two reveal">
+
+            <div class="image-box">
+                <img
+                    class="experience-image"
+                    src="exp img2.png"
+                    alt="Coffee cups"
+                >
+            </div>
+
+            <div class="experience-card-content">
+
+                <span class="experience-number">
+                    02
+                </span>
+
+                <h3 class="experience-card-title">
+                    The Brew
+                </h3>
+
+                <p class="experience-card-description">
+                    Carefully sourced beans, roasted with
+                    patience and brewed with intention.
+                </p>
+
+            </div>
+
+        </article>
+
+
+        <!-- CARD 03 -->
+
+        <article class="experience-card card-three reveal">
+
+            <div class="image-box wide">
+                <img
+                    class="experience-image"
+                    src="exp img3.png"
+                    alt="Cafe interior"
+                >
+            </div>
+
+            <div class="experience-card-content">
+
+                <span class="experience-number">
+                    03
+                </span>
+
+                <h3 class="experience-card-title">
+                    The People
+                </h3>
+
+                <p class="experience-card-description">
+                    Friends, strangers and familiar faces.
+                    Everyone has a seat here.
+                </p>
+
+            </div>
+
+        </article>
+
+    </div>
+
+</section>
+
+    <!--^=================== MENU ========================^-->
+
+<section class="menu" id="menu">
+
+    <div class="menu-header">
+        <P class="menu-label">
+            03 — OUR DAILY RITUAL
+        </P>
+        <h2 class="menu-title">
+            Made slowly.<br>
+            <em>Served simply.</em>
+        </h2>
+    </div>
+
+
+    <div class="menu-filters" role="group" aria-label="Filter menu by category">
+        <button class="menu-filter is-active" type="button" data-filter="all" aria-pressed="true">All</button>
+        <button class="menu-filter" type="button" data-filter="coffee" aria-pressed="false">Coffee</button>
+        <button class="menu-filter" type="button" data-filter="breakfast" aria-pressed="false">Breakfast</button>
+        <button class="menu-filter" type="button" data-filter="bakes" aria-pressed="false">Bakes</button>
+        <button class="menu-filter" type="button" data-filter="cold" aria-pressed="false">Cold</button>
+    </div>
+
+    <div class="menu-list">
+
+        <article class="menu-item" data-category="coffee">
+
+            <div class="menu-category">
+                <span class="category-number">01</span>
+                <span class="category-name">Coffee</span>
+            </div>
+
+            <div class="menu-item-details">
+                <h3 class="menu-item-name">Espresso</h3>
+                <p class="menu-item-description">House blend · Double shot</p>
+            </div>
+
+            <span class="menu-item-price">
+                ₹130
+            </span>
+        </article>
+
+
+        <article class="menu-item" data-category="breakfast">
+
+            <div class="menu-category">
+                <span class="category-number">02</span>
+                <span class="category-name">Breakfast</span>
+            </div>
+
+            <div class="menu-item-details">
+                <h3 class="menu-item-name">Avocado Toast</h3>
+                <p class="menu-item-description">Sourdough · Avocado · Herbs</p>
+            </div>
+
+            <span class="menu-item-price">
+                ₹240
+            </span>
+        </article>
+
+
+        <article class="menu-item" data-category="bakes">
+
+            <div class="menu-category">
+                <span class="category-number">03</span>
+                <span class="category-name">Bakes</span>
+            </div>
+
+            <div class="menu-item-details">
+                <h3 class="menu-item-name">Almond Croissant</h3>
+                <p class="menu-item-description">Butter pastry · Almond cream</p>
+            </div>
+
+            <span class="menu-item-price">
+                ₹180
+            </span>
+        </article>
+
+        
+        <article class="menu-item" data-category="cold">
+
+            <div class="menu-category">
+                <span class="category-number">04</span>
+                <span class="category-name">Cold</span>
+            </div>
+
+            <div class="menu-item-details">
+                <h3 class="menu-item-name">Iced Latte</h3>
+                <p class="menu-item-description">Espresso · Cold milk · Ice</p>
+            </div>
+
+            <span class="menu-item-price">
+                ₹170
+            </span>
+        </article>
+
+    </div>
+
+</section>
+
+<!--^=================== SIGNATURE ========================^-->
+
+<section class="signature" id="signature">
+
+    <div class="signature-image-wrapper">
+        <img
+            class="signature-image"
+            src="signature-coffe.png"
+            alt="Signature"
+        >
+    </div>
+    
+    <div class="signature-content reveal">
+
+        <P class="signature-eyebrow"> SIGNATURE · 01 </p>
+
+        <h2 class="signature-title">
+            Orange<br>
+            <em>Espresso.</em>
+        </h2>
+
+        <P class="signature-description">
+            Bright citrus meets a rich double espresso. Unexpected, refreshing and just a little bit wild.
+        </P>
+
+        <span class="signature-price">
+            ₹190
+        </span>
+
+        <a href="#signature" class="signature-button"> discover ↗ </a>
+    </div>
+    
+</section>
+
+<!--^=================== STORY ========================^-->
+
+<section class="story" id="story">
+
+    <div class="story-image wrapper">
+        <img
+            class="story-img"
+            src="story-img.png"
+            alt="Story">
+    </div>
+    
+    <div class="story-content revel show">
+        
+        <P class="story-label"> 04 — BEHIND THE CUP</p>
+
+        <h2>
+            Made by people
+            who <em>care.</em>
+        </h2>
+        
+        <p>We started Olive & Ember with a simple idea: create a place that feels familiar from the very first visit.</p>
+
+        <p >We work with small roasters, local bakers and ingredients we genuinely love.</p>
+
+        <a href="#story" class="story-btn"> READ OUR STORY →</a>
+
+    </div>
+</section>
+    
+    <!--^=================== JOURNAL ========================^-->
+<section class="journal" id="journal">
+    <div class="journal-heading">
+        
+        <p class="journal-label">05 — FROM THE COUNTER</p>
+
+        <h2 class="journal-title">Little stories.</h2>
+
+    </div>
+
+    <div class="journal-grid">
+
+        <!--! card1 -->
+        <article class="journal-card card-one reveal">
+
+            <div class="journal-image">
+                <img
+                    src="journal-img1.png"
+                    alt="Coffee journal"
+                >
+            </div>
+
+            <div class="journal-card-content">
+                
+                <span>06.08.26</span>
+
+                <h2>Why we roast light.</h2>
+
+                <a href="#">Read story →</a>
+
+            </div>
+        </article>
+    
+        <!--! card2 -->
+    
+        <article class="journal-card card-one reveal">
+            <div class="journal-image">
+                <img
+                    src="hero-img.png"
+                    alt="Morning coffee"
+                >
+            </div>
+
+            <div class="journal-card-content">
+                
+                <span>28.07.26</span>
+
+                <h2>The perfect morning doesn't need a plan.</h2>
+
+                <a href="#">Read story →</a>
+
+            </div>
+        </article>
+    
+        <!--! card3 -->
+
+         <article class="journal-card card-one reveal">
+
+             <div class="journal-image">
+                <img
+                    src="journal-img3.png"
+                    alt="Coffee beans"
+                >
+            </div>
+
+            <div class="journal-card-content">
+                
+                <span>14.07.26</span>
+
+                <h2>Meet our house blend.</h2>
+
+                <a href="#">Read story →</a>
+
+            </div>
+        </article>
+
+    </div> 
+
+</section>
+
+    <!--^ VISIT-SECTION ^-->
+
+<section class="visit" id="visit">
+
+    <div class="visit-heading reveal">
+
+        <p class="visit-label">06 — COME SAY HELLO</p>
+
+        <h2>
+            Come.<br>
+            Stay.<br>
+            <em>Slow down.</em>
+        </h2>
+
+    </div>
+            
+    <div class="visit-info reveal">
+
+        <!--! block1 -->
+
+        <div class="info-block">
+
+            <span>OPENING HOURS</span>
+            <p>
+                MON — FRI<br>
+                08:00 — 21:00
+            </p>
+
+            <P>
+                SAT — SUN<br>
+                08:00 — 22:00
+            </P>
+
+        </div>
+        
+        <!--! block2 -->
+
+        <div class="info-block">
+
+            <span>FIND US</span>
+            <p>
+                123 Somewhere Street<br>
+                Jaipur, India
+            </p>
+
+            <a 
+                href="#">
+                GET DIRECTIONS ↗
+            </a>
+
+        </div>
+        
+        <!--! block3 -->
+
+        <div class="info-block">
+
+            <span>CONTACT</span>
+            <p>
+                nikmeena2810@gmail.com<br>
+                +91 93510 72616
+            </p>
+
+        </div>
+        
+
+    </div>
+</section>
+</main>
+
+    <!--^ footer ^-->
+
+<footer>
+    <div class="footer-top">
+
+        <h2 class="footer-logo">coffee<span>&</span>code</h2>
+
+        <p class="footer-title">
+        Slow coffee.<br>
+        Good company.</p>
+    </div>
+
+    <div class="footer-bottom">
+
+        <span>© 2026 chai & code</span>
+
+         <div>
+            <a href="#">Instagram</a>
+            <a href="#">Email</a>
+            <a href="#">Privacy</a>
+        </div>
+        
+        <span>Take your time.</span>
+        
+    </div>
+</footer>
+
+</body>
+</html>

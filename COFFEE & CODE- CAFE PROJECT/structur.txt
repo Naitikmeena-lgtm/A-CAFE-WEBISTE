@@ -1,0 +1,180 @@
+<body>
+
+    <header>
+        <!-- navbar -->
+    </header>
+
+    <main>
+
+        <section class="hero">
+            <!-- hero -->
+        </section>
+
+        <section class="philosophy">
+            <!-- philosophy -->
+        </section>
+
+        <section class="experience">
+            <!-- cafe experience -->
+        </section>
+
+        <section class="menu">
+            <!-- menu -->
+        </section>
+
+        <section class="signature">
+            <!-- signature item -->
+        </section>
+
+        <section class="story">
+            <!-- cafe story -->
+        </section>
+
+        <section class="journal">
+            <!-- journal -->
+        </section>
+
+        <section class="visit">
+            <!-- location / timings -->
+        </section>
+
+    </main>
+
+    <footer>
+        <!-- footer -->
+    </footer>
+
+</body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section class="experience">
+
+    <div class="experience-heading">
+
+        <p class="experience-label">
+            02 — THE EXPERIENCE
+        </p>
+
+        <h2 class="experience-title">
+            More than<br>
+            <em>a cup.</em>
+        </h2>
+
+    </div>
+
+
+    <div class="experience-grid">
+
+        <!-- CARD 01 -->
+
+        <article class="experience-card card-one reveal">
+
+            <div class="image-box tall">
+                <img
+                    class="experience-image"
+                    src="exp img1.png"
+                    alt="Cafe interior"
+                >
+            </div>
+
+            <div class="experience-card-content">
+
+                <span class="experience-number">
+                    01
+                </span>
+
+                <h3 class="experience-card-title">
+                    The Space
+                </h3>
+
+                <p class="experience-card-description">
+                    Warm light, natural textures and a place
+                    where you can stay as long as you like.
+                </p>
+
+            </div>
+
+        </article>
+
+
+        <!-- CARD 02 -->
+
+        <article class="experience-card card-two reveal">
+
+            <div class="image-box">
+                <img
+                    class="experience-image"
+                    src="exp img2.png"
+                    alt="Coffee cups"
+                >
+            </div>
+
+            <div class="experience-card-content">
+
+                <span class="experience-number">
+                    02
+                </span>
+
+                <h3 class="experience-card-title">
+                    The Brew
+                </h3>
+
+                <p class="experience-card-description">
+                    Carefully sourced beans, roasted with
+                    patience and brewed with intention.
+                </p>
+
+            </div>
+
+        </article>
+
+
+        <!-- CARD 03 -->
+
+        <article class="experience-card card-three reveal">
+
+            <div class="image-box wide">
+                <img
+                    class="experience-image"
+                    src="exp img3.png"
+                    alt="Cafe interior"
+                >
+            </div>
+
+            <div class="experience-card-content">
+
+                <span class="experience-number">
+                    03
+                </span>
+
+                <h3 class="experience-card-title">
+                    The People
+                </h3>
+
+                <p class="experience-card-description">
+                    Friends, strangers and familiar faces.
+                    Everyone has a seat here.
+                </p>
+
+            </div>
+
+        </article>
+
+    </div>
+
+</section>
